@@ -70,7 +70,7 @@ footer {
 }
 
 .weather-app-details strong {
-  color: #ff49ad;
+  color: #2fa8f9;
 }
 
 .weather-app-temperature-container {
@@ -104,10 +104,22 @@ footer {
   opacity: 0.5;
 }
 
+.weather-forecast-icon {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .weather-forecast-temperatures {
-  font-size: 13px;
+  font-size: 15px;
+  color: #ff49ad;
 }
 
 .weather-forecast-temperature-min {
   opacity: 0.5;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
 }
